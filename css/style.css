@@ -1,0 +1,127 @@
+.header
+{
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+	background-color:transparent;
+	height:100px;
+	z-index: 999;
+}
+.header-wrapper
+{
+	background-color: red;
+}
+.cursor-pointer
+{
+	cursor: pointer;
+}
+.social-icon-wrapper
+{
+	padding-top: 40px;
+	color: lightgray;
+}
+/* slider style */
+.slider-wrapper
+{
+	position: relative;
+}
+.slider-image
+{
+	width: 100%;
+}
+.slider-text
+{  
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 0;
+  color: white;
+  text-align: center;
+  text-align: justify;
+  font-weight: 100;
+  font-size:50px; 
+}
+.health-issues
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: white;
+  text-align: center;
+  font-size:14px;
+}
+.sreach-bar
+{
+	position: relative;
+}
+.search-input
+{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #a0cf32;
+	border-radius: 0px;
+	cursor: pointer;
+}
+.search-input:focus,.search-input:active {
+    outline: none !important;
+    box-shadow: none;
+    border-bottom: 2px solid #a0cf32;
+    background-color: transparent;
+}
+.search-icon
+{
+	color: #a0cf32;
+	position: absolute; 
+	right: 20px;
+	top: 2px;
+	font-weight: normal;
+	font-size: 30px;
+}
+.down-page
+{
+	cursor: pointer;
+}
+
+/* content style */
+.first-left
+{
+	
+	background-image: url('../images/design_02.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    font-size: 20px;
+}
+.first-head
+{
+	color: #a0cf32;
+}
+.firt-explain
+{
+	color: white;
+}
+.first-right
+{
+	background-color: #a0cf32;
+	padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: justify;
+    color: white;
+
+}
+.contact-button
+{
+	border-radius: 5px;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+}
+.second-left
+{
+	
+	background-image: url('../images/yoga_03.jpg');
+}
